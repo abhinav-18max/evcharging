@@ -1,0 +1,28 @@
+#charge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 24px;
+}
+
+#calculator {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#accountNumber {
+  width: 300px;
+  height: 40px;
+  font-size: 16px;
+  padding: 10px;
+}
+
+#enterButton {
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  background-color: #0074e4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
