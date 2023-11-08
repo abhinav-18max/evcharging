@@ -1,7 +1,15 @@
+import './dashboard.css'
+
 export default function Dash(){
+
     return(
-        <div>
-            <h1>Dashboard</h1>
-        </div>
+       <div>
+            <div className="title">
+              helllo shabnam
+            </div>
+            
+       
+       </div>
+     
     )
 }
