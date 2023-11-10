@@ -1,28 +1,93 @@
-#charge {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  font-size: 24px;
+#full {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, navy, #008B8B);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    color: white;
 }
 
-#calculator {
-  text-align: center;
-  margin-top: 100px;
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    /* Set navbar background to transparent */
+    color: white;
+    padding: 0px;
+    width: 100%;
 }
 
-#accountNumber {
-  width: 300px;
-  height: 40px;
-  font-size: 16px;
-  padding: 10px;
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
 
-#enterButton {
-  width: 100px;
-  height: 40px;
-  font-size: 16px;
-  background-color: #0074e4;
-  color: #fff;
-  border: none;
-  cursor: pointer;
+#header {
+    background-color: transparent;
+    /* Set header background to transparent */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+#welcome {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#charge-info {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#current-charge {
+    color: white;
+}
+
+#map-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+#account-input {
+    margin-bottom: 10px;
+    background-color: white;
+    /* White box background for account input */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+label {
+    color: grey;
+    /* Grey color for the label */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
 }
